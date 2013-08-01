@@ -1739,3 +1739,107 @@ Served asset /store.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-30 20:29:15 -0400
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-30 20:51:06 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.8ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (91.0ms)
+Compiled store.css  (20ms)  (pid 6458)
+Compiled application.css  (1ms)  (pid 6458)
+Completed 200 OK in 269ms (Views: 253.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /store.css - 200 OK (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-07-30 20:51:07 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /klaccik-shirts-red.jpg - 200 OK (18ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
+Served asset /klaccik-shirts.jpg - 200 OK (16ms)
