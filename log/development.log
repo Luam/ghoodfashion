@@ -1843,3 +1843,1883 @@ Served asset /klaccik-shirts-red.jpg - 200 OK (18ms)
 
 Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-07-30 20:52:05 -0400
 Served asset /klaccik-shirts.jpg - 200 OK (16ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-06 14:20:00 -0400
+Connecting to database specified by database.yml
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (18.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (67.4ms)
+Completed 200 OK in 377ms (Views: 287.2ms | ActiveRecord: 20.5ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /store.css - 200 OK (44ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /store.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /klaccik-shirts.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /klaccik-shirts-red.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:20:01 -0400
+Served asset /logo.jpg - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo.jpg"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-08-06 14:20:21 -0400
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:21 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:20:21 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:20:21 -0400
+Served asset /logo.jpg - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo.jpg"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2013-08-06 14:20:36 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 75ms (Views: 72.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:36 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:20:36 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:20:36 -0400
+Served asset /logo.jpg - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo.jpg"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2013-08-06 14:20:43 -0400
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (66.7ms)
+  Rendered products/new.html.erb within layouts/application (150.4ms)
+Completed 200 OK in 156ms (Views: 155.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:44 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:20:44 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:44 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:20:44 -0400
+Served asset /logo.jpg - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo.jpg"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-08-06 14:20:46 -0400
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:46 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:20:46 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:20:46 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:20:46 -0400
+Served asset /logo.jpg - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo.jpg"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2013-08-06 14:20:52 -0400
+
+ActionController::RoutingError (No route matches [GET] "/store"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/stores" for 127.0.0.1 at 2013-08-06 14:20:58 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stores"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-06 14:21:17 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:21:17 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:21:17 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:21:17 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:21:17 -0400
+Served asset /logo.jpg - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo.jpg"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (16.4ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 53ms (Views: 14.3ms | ActiveRecord: 16.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /application.js - 200 OK (37ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /logo.jpg - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo.jpg"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:22:57 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (1.3ms)
+Compiled application.css  (1ms)  (pid 14701)
+Completed 200 OK in 118ms (Views: 118.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /logo.jpg - 200 OK (7ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:40:50 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-06 14:42:46 -0400
+Connecting to database specified by database.yml
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (17.5ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (44.4ms)
+Completed 200 OK in 295ms (Views: 229.4ms | ActiveRecord: 19.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /logo.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (17ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:42:47 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (1.4ms)
+Compiled application.css  (1ms)  (pid 14764)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /application.css - 200 OK (23ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:43:14 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:43:16 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (1.0ms)
+Compiled application.css  (1ms)  (pid 14764)
+Completed 200 OK in 91ms (Views: 90.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:43:45 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/stores" for 127.0.0.1 at 2013-08-06 14:43:52 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stores"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/stores" for 127.0.0.1 at 2013-08-06 14:44:16 -0400
+
+ArgumentError (missing :controller):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started GET "/stores/index" for 127.0.0.1 at 2013-08-06 14:44:31 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stores/index"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mac/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:44:35 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 33ms (Views: 26.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:44:36 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:45:39 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:47:21 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:47:31 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:47:32 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:49:04 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (1.6ms)
+Compiled application.css  (1ms)  (pid 14764)
+Completed 200 OK in 135ms (Views: 134.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:49:05 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:50:01 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (1.6ms)
+Compiled application.css  (1ms)  (pid 14764)
+Completed 200 OK in 147ms (Views: 146.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /application.css - 200 OK (20ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:50:02 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /store.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /store.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /logo.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:50:38 -0400
+Served asset /klaccik-shirts.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:50:39 -0400
+Served asset /klaccik-shirts-red.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:49 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:49 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:49 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:50:49 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (0.8ms)
+Compiled application.css  (1ms)  (pid 14764)
+Completed 200 OK in 120ms (Views: 119.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:51:36 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (129.4ms)
+Completed 200 OK in 135ms (Views: 134.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:53:05 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:53:06 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:53:06 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:53:06 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:53:06 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (2.5ms)
+Compiled application.css  (14ms)  (pid 14764)
+Completed 200 OK in 266ms (Views: 264.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /application.css - 200 OK (31ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:56:05 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:06 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:06 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:06 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:06 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:56:17 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (1.8ms)
+Compiled application.css  (1ms)  (pid 14764)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:56:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:17 -0400
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:17 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:17 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:17 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:56:18 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 14:57:21 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (1.8ms)
+Compiled application.css  (1ms)  (pid 14764)
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:57:21 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:57:21 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 14:57:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:57:21 -0400
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:57:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 14:57:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 14:57:21 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 14:57:22 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 14:57:22 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 14:57:22 -0400
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 14:57:22 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 14:57:22 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 14:57:22 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 14:57:22 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 14:57:22 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 14:57:22 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (38.8ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20130730195958)
+Migrating to CreateCarts (20130806185946)
+  [1m[35m (12.8ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130806185946')[0m
+  [1m[35m (3.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20130730195958)
+Migrating to CreateCarts (20130806185946)
+Migrating to CreateLineItems (20130806190516)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "cart_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130806190516')[0m
+  [1m[35m (94.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/store/index" for 127.0.0.1 at 2013-08-06 15:21:14 -0400
+Connecting to database specified by database.yml
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (110.1ms)
+Compiled store.css  (57ms)  (pid 14816)
+Compiled carts.css  (1ms)  (pid 14816)
+Compiled line_items.css  (1ms)  (pid 14816)
+Compiled application.css  (14ms)  (pid 14816)
+Compiled carts.js  (377ms)  (pid 14816)
+Compiled line_items.js  (66ms)  (pid 14816)
+Compiled application.js  (491ms)  (pid 14816)
+Completed 200 OK in 1066ms (Views: 979.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /line_items.css - 200 OK (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /products.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /carts.js - 200 OK (2ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /carts.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /line_items.js - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /store.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /store.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /logo.jpg - 304 Not Modified (34ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-06 15:21:15 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (166ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-06 15:21:16 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:16 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:16 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:16 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:16 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 15:21:16 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at 2013-08-06 15:21:18 -0400
+Processing by LineItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"CKqsdwNqx3XLGvd/yWbsU74X9jrBSaw/wM1DoqLShAQ=", "product_id"=>"1"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (80.2ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Tue, 06 Aug 2013 19:21:18 UTC +00:00], ["updated_at", Tue, 06 Aug 2013 19:21:18 UTC +00:00]]
+  [1m[35m (16.3ms)[0m  commit transaction
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 175ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: product):
+  app/controllers/line_items_controller.rb:46:in `create'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.4ms)
+
+
+Started GET "/line_items?product_id=1" for 127.0.0.1 at 2013-08-06 15:21:19 -0400
+Processing by LineItemsController#index as */*
+  Parameters: {"product_id"=>"1"}
+  [1m[35mLineItem Load (0.2ms)[0m  SELECT "line_items".* FROM "line_items" 
+  Rendered line_items/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at 2013-08-06 15:23:50 -0400
+Processing by LineItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"CKqsdwNqx3XLGvd/yWbsU74X9jrBSaw/wM1DoqLShAQ=", "product_id"=>"1"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 06 Aug 2013 19:23:50 UTC +00:00], ["updated_at", Tue, 06 Aug 2013 19:23:50 UTC +00:00]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 63ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: product):
+  app/controllers/line_items_controller.rb:46:in `create'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.2ms)
+
+
+Started GET "/line_items?product_id=1" for 127.0.0.1 at 2013-08-06 15:23:50 -0400
+Processing by LineItemsController#index as */*
+  Parameters: {"product_id"=>"1"}
+  [1m[36mLineItem Load (0.2ms)[0m  [1mSELECT "line_items".* FROM "line_items" [0m
+  Rendered line_items/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-06 15:23:52 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-08-06 15:23:52 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-08-06 15:23:52 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-06 15:23:52 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-06 15:23:52 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-06 15:23:52 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-07 21:29:18 -0400
+Connecting to database specified by database.yml
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (14.5ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (110.1ms)
+Completed 200 OK in 914ms (Views: 800.3ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /carts.js - 200 OK (4ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /line_items.js - 200 OK (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /logo.jpg - 304 Not Modified (23ms)
+
+
+Started GET "/assets/klaccik-shirts-red.jpg" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /klaccik-shirts-red.jpg - 304 Not Modified (13ms)
+
+
+Started GET "/assets/klaccik-shirts.jpg" for 127.0.0.1 at 2013-08-07 21:29:20 -0400
+Served asset /klaccik-shirts.jpg - 304 Not Modified (3ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at 2013-08-07 21:29:23 -0400
+Processing by LineItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"CKqsdwNqx3XLGvd/yWbsU74X9jrBSaw/wM1DoqLShAQ=", "product_id"=>"1"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (72.9ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Thu, 08 Aug 2013 01:29:23 UTC +00:00], ["updated_at", Thu, 08 Aug 2013 01:29:23 UTC +00:00]]
+  [1m[35m (6.5ms)[0m  commit transaction
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 163ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: product):
+  app/controllers/line_items_controller.rb:46:in `create'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.2ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at 2013-08-07 21:33:30 -0400
+Processing by LineItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"CKqsdwNqx3XLGvd/yWbsU74X9jrBSaw/wM1DoqLShAQ=", "product_id"=>"1"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Thu, 08 Aug 2013 01:33:30 UTC +00:00], ["updated_at", Thu, 08 Aug 2013 01:33:30 UTC +00:00]]
+  [1m[35m (45.1ms)[0m  commit transaction
+  [1m[36mProduct Load (8.3ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 138ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: product):
+  app/controllers/line_items_controller.rb:46:in `create'
+
+
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+Connecting to database specified by database.yml
+  [1m[36m (16.8ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateProducts (20130730195958)
+Migrating to CreateCarts (20130806185946)
+Migrating to CreateLineItems (20130806190516)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
