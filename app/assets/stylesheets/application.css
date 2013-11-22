@@ -14,11 +14,11 @@
 
 #banner {
 
-	background: #9c9;
+	background: #bfb;
 	padding: 10px;
  	border-bottom: 2px solid;
  	font: small-caps 40px/40px "Times New Roman", serif;
- 	color: #282;
+ 	color: #121;
  	text-align: center; 
  	
 	img{ 
@@ -27,7 +27,7 @@
 }
 
 #notice{
-	color:#000 !important;
+	color:#FFF !important;
 	border:2px solid red;
 	padding: 1em;
 	margin-bottom: 2em;
@@ -35,13 +35,13 @@
 	font: bold smaller sans-serif;
 }
 #columns{
-	background: #141;
+	background: #FFF;
 
 	#main{
 		margin-left: 17em;
 		padding: 1em;
 		background: white;
-		float: right;
+	
 		
 	}
 	
