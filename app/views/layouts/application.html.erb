@@ -5,6 +5,11 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body class="<%= controller.controller_name %>">
 	
@@ -14,7 +19,7 @@
 	</div>	
 	<div id="columns">
 		<div id="side">
-			<ul>
+			<ul class="nav nav-pills nav-stacked">
 				<li><a href="">Home</a></li>
 				<li><a href="">Questions</a></li> 
 				<li><a href="">News</a></li> 
